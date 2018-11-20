@@ -6,7 +6,7 @@ export PATH
 #	System Required: CentOS 6/Debian/Ubuntu 14.04+
 #	Description: Install the ShadowsocksR server
 #	Version: 1.2.9
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/ss-jc42/
 #=================================================
 
