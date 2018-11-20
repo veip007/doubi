@@ -6,7 +6,7 @@ export PATH
 #	System Required: CentOS/Debian/Ubuntu
 #	Description: Lightsocks
 #	Version: 1.0.1
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/lightsocks-jc1/
 #=================================================
 
