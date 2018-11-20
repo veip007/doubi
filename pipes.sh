@@ -5,7 +5,7 @@ export PATH
 #       System Required: CentOS/Debian/Ubuntu
 #       Description: PipeSocks
 #       Version: 1.0.5
-#       Author: Toyo
+#       Author: Toyo 
 #       Blog: https://doub.io/pipesocks-jc1/
 #       Github: https://github.com/pipesocks/install
 #=================================================
