@@ -6,7 +6,7 @@ export PATH
 #	System Required: CentOS/Debian/Ubuntu
 #	Description: Cloud Torrent
 #	Version: 1.2.5
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/wlzy-12/
 #=================================================
 
