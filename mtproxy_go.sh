@@ -6,7 +6,7 @@ export PATH
 #	System Required: CentOS/Debian/Ubuntu
 #	Description: MTProxy Golang
 #	Version: 1.0.1
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/shell-jc9/
 #=================================================
 
