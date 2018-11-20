@@ -6,7 +6,7 @@ export PATH
 #	System Required: CentOS/Debian/Ubuntu
 #	Description: HaProxy
 #	Version: 1.0.7
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/wlzy-19/
 #=================================================
 
