@@ -6,7 +6,7 @@ export PATH
 #	System Required: CentOS/Debian/Ubuntu
 #	Description: Libsodium Install
 #	Version: 1.0.0
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/shell-jc6/
 #=================================================
 
