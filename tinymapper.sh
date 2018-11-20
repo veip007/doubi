@@ -6,7 +6,7 @@ export PATH
 #	System Required: CentOS/Debian/Ubuntu
 #	Description: tinyPortMapper
 #	Version: 1.0.2
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/wlzy-36/
 #=================================================
 sh_ver="1.0.2"
