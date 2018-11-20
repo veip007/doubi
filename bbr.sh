@@ -6,7 +6,7 @@ export PATH
 #	System Required: Debian/Ubuntu
 #	Description: TCP-BBR
 #	Version: 1.0.22
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/wlzy-16/
 #=================================================
 
