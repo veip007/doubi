@@ -6,7 +6,7 @@ export PATH
 #	System Required: CentOS 6+/Debian 7+/Ubuntu 14.04+
 #	Description: ShadowsocksR Port-IP Check
 #	Version: 1.0.6
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/ss-jc50/
 #=================================================
 IP_threshold=3
