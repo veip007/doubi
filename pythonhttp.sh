@@ -6,7 +6,7 @@ export PATH
 #       System Required: All
 #       Description: Python HTTP Server
 #       Version: 1.0.2
-#       Author: Toyo
+#       Author: Toyo 
 #       Blog: https://doub.io/wlzy-8/
 #=================================================
 
