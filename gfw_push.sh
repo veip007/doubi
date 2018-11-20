@@ -6,7 +6,7 @@ export PATH
 #	System Required: CentOS/Debian/Ubuntu
 #	Description: 监测IP是否被墙并推送消息至Telegram
 #	Version: 1.0.4
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/shell-jc8/
 #=================================================
 
