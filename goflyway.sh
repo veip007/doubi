@@ -6,7 +6,7 @@ export PATH
 #	System Required: CentOS/Debian/Ubuntu
 #	Description: GoFlyway
 #	Version: 1.0.11
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/goflyway-jc2/
 #=================================================
 
