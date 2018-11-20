@@ -6,7 +6,7 @@ export PATH
 #	System Required: CentOS/Debian/Ubuntu
 #	Description: Aria2
 #	Version: 1.0.4
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/shell-jc4/
 #=================================================
 sh_ver="1.0.4"
