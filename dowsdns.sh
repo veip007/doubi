@@ -6,7 +6,7 @@ export PATH
 #	System Required: CentOS/Debian/Ubuntu
 #	Description: dowsDNS
 #	Version: 1.0.10
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/dowsdns-jc3/
 #=================================================
 
