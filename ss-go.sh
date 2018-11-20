@@ -6,7 +6,7 @@ export PATH
 #	System Required: CentOS/Debian/Ubuntu
 #	Description: Shadowsocks Golang
 #	Version: 1.0.0
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/ss-jc67/
 #=================================================
 
