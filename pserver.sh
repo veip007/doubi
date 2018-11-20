@@ -6,7 +6,7 @@ export PATH
 #	System Required: CentOS/Debian/Ubuntu
 #	Description: Peerflix Server
 #	Version: 1.1.0
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/wlzy-13/
 #=================================================
 
