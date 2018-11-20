@@ -6,7 +6,7 @@ export PATH
 #	System Required: CentOS/Debian/Ubuntu
 #	Description: MTProxy
 #	Version: 1.0.8
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/shell-jc7/
 #=================================================
 
