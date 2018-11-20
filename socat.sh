@@ -6,7 +6,7 @@ export PATH
 #	System Required: Debian/Ubuntu
 #	Description: Socat
 #	Version: 1.0.5
-#	Author: Toyo
+#	Author: Toyo 
 #	Blog: https://doub.io/wlzy-18/
 #=================================================
 
