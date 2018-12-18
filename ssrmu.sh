@@ -5,12 +5,12 @@ export PATH
 #=================================================
 #	System Required: CentOS 6+/Debian 6+/Ubuntu 14.04+
 #	Description: Install the ShadowsocksR mudbjson server
-#	Version: 2.0.0 
+#	Version: 2.0.1 
 #	Author: Toyo
 #	Blog: https://doub.io/ss-jc60/
 #=================================================
 
-sh_ver="2.0.0"
+sh_ver="2.0.1"
 filepath=$(cd "$(dirname "$0")"; pwd)
 file=$(echo -e "${filepath}"|awk -F "$0" '{print $1}')
 ssr_folder="/usr/local/shadowsocksr"
@@ -485,8 +485,8 @@ Set_config_protocol(){
  ${Green_font_prefix}12.${Font_color_suffix} auth_akarin_rand
  ${Green_font_prefix}13.${Font_color_suffix} auth_akarin_spec_a
  ${Tip} 如果使用 auth_chain_* 系列协议，建议加密方式选择 none (该系列协议自带 RC4 加密)，混淆随意" && echo
-	read -e -p "(默认: 4. auth_aes128_md5):" ssr_protocol
-	[[ -z "${ssr_protocol}" ]] && ssr_protocol="4"
+	read -e -p "(默认: 1. origin):" ssr_protocol
+	[[ -z "${ssr_protocol}" ]] && ssr_protocol="1"
 	if [[ ${ssr_protocol} == "1" ]]; then
 		ssr_protocol="origin"
 	elif [[ ${ssr_protocol} == "2" ]]; then
@@ -538,8 +538,8 @@ Set_config_obfs(){
  ${Tip} 如果使用 ShadowsocksR 代理游戏，建议选择 混淆兼容原版或 plain 混淆，然后客户端选择 plain，否则会增加延迟 !
  另外, 如果你选择了 tls1.2_ticket_auth，那么客户端可以选择 tls1.2_ticket_fastauth，这样即能伪装又不会增加延迟 !
  如果你是在日本、美国等热门地区搭建，那么选择 plain 混淆可能被墙几率更低 !" && echo
-	read -e -p "(默认: 6. tls1.2_ticket_fastauth):" ssr_obfs
-	[[ -z "${ssr_obfs}" ]] && ssr_obfs="6"
+	read -e -p "(默认: 2. http_simple):" ssr_obfs
+	[[ -z "${ssr_obfs}" ]] && ssr_obfs="2"
 	if [[ ${ssr_obfs} == "1" ]]; then
 		ssr_obfs="plain"
 	elif [[ ${ssr_obfs} == "2" ]]; then
