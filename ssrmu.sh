@@ -5,7 +5,7 @@ export PATH
 #=================================================
 #	System Required: CentOS 6+/Debian 6+/Ubuntu 14.04+
 #	Description: Install the ShadowsocksR mudbjson server
-#	Version: 2.0.1 
+#	Version: 2.0.2 
 #	Author: Toyo
 #	Blog: https://doub.io/ss-jc60/
 #=================================================
@@ -409,30 +409,32 @@ Set_config_method(){
  ${Green_font_prefix} 1.${Font_color_suffix} none
  ${Tip} 如果使用 auth_chain_* 系列协议，建议加密方式选择 none (该系列协议自带 RC4 加密)，混淆随意
  
- ${Green_font_prefix} 2.${Font_color_suffix} rc4
- ${Green_font_prefix} 3.${Font_color_suffix} rc4-md5
- ${Green_font_prefix} 4.${Font_color_suffix} rc4-md5-6
+ ${Green_font_prefix} 2.${Font_color_suffix} aes-128-ctr
+ ${Green_font_prefix} 3.${Font_color_suffix} aes-192-ctr
+ ${Green_font_prefix} 4.${Font_color_suffix} aes-256-ctr
  
- ${Green_font_prefix} 5.${Font_color_suffix} aes-128-ctr
- ${Green_font_prefix} 6.${Font_color_suffix} aes-192-ctr
- ${Green_font_prefix} 7.${Font_color_suffix} aes-256-ctr
+ ${Green_font_prefix} 5.${Font_color_suffix} aes-128-cfb
+ ${Green_font_prefix} 6.${Font_color_suffix} aes-192-cfb
+ ${Green_font_prefix} 7.${Font_color_suffix} aes-256-cfb
  
- ${Green_font_prefix} 8.${Font_color_suffix} aes-128-cfb
- ${Green_font_prefix} 9.${Font_color_suffix} aes-192-cfb
- ${Green_font_prefix}10.${Font_color_suffix} aes-256-cfb
+ ${Green_font_prefix} 8.${Font_color_suffix} aes-128-cfb8
+ ${Green_font_prefix} 9.${Font_color_suffix} aes-192-cfb8
+ ${Green_font_prefix}10.${Font_color_suffix} aes-256-cfb8
  
- ${Green_font_prefix}11.${Font_color_suffix} aes-128-cfb8
- ${Green_font_prefix}12.${Font_color_suffix} aes-192-cfb8
- ${Green_font_prefix}13.${Font_color_suffix} aes-256-cfb8
+ ${Green_font_prefix}11.${Font_color_suffix} rc4
+ ${Green_font_prefix}12.${Font_color_suffix} rc4-md5
+ ${Green_font_prefix}13.${Font_color_suffix} rc4-md5-6
  
  ${Green_font_prefix}14.${Font_color_suffix} salsa20
  ${Green_font_prefix}15.${Font_color_suffix} chacha20
- ${Green_font_prefix}16.${Font_color_suffix} chacha20-ietf
+ ${Green_font_prefix}16.${Font_color_suffix} xsalsa20
+ ${Green_font_prefix}17.${Font_color_suffix} xchacha20
+ ${Green_font_prefix}18.${Font_color_suffix} chacha20-ietf
  ${Tip} salsa20/chacha20-*系列加密方式，需要额外安装依赖 libsodium ，否则会无法启动ShadowsocksR !
  
-       推荐使用:aes-128-ctr" && echo
-	read -e -p "(默认: 10. aes-256-cfb):" ssr_method
-	[[ -z "${ssr_method}" ]] && ssr_method="10"
+       推荐使用最新协议" && echo
+	read -e -p "(默认: 7. aes-256-cfb):" ssr_method
+	[[ -z "${ssr_method}" ]] && ssr_method="7"
 	if [[ ${ssr_method} == "1" ]]; then
 		ssr_method="none"
 	elif [[ ${ssr_method} == "2" ]]; then
