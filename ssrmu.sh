@@ -407,24 +407,19 @@ Set_config_method(){
 	echo -e "请选择要设置的用户 加密方式
 	
  ${Green_font_prefix} 1.${Font_color_suffix} none
- ${Tip} 如果使用 auth_chain_* 系列协议，建议加密方式选择 none (该系列协议自带 RC4 加密)，混淆随意
- 
+ ${Tip} 如果使用 auth_chain_* 系列协议，建议加密方式选择 none (该系列协议自带 RC4 加密)，混淆随意 
  ${Green_font_prefix} 2.${Font_color_suffix} aes-128-ctr
  ${Green_font_prefix} 3.${Font_color_suffix} aes-192-ctr
  ${Green_font_prefix} 4.${Font_color_suffix} aes-256-ctr
- 
  ${Green_font_prefix} 5.${Font_color_suffix} aes-128-cfb
  ${Green_font_prefix} 6.${Font_color_suffix} aes-192-cfb
  ${Green_font_prefix} 7.${Font_color_suffix} aes-256-cfb
- 
  ${Green_font_prefix} 8.${Font_color_suffix} aes-128-cfb8
  ${Green_font_prefix} 9.${Font_color_suffix} aes-192-cfb8
  ${Green_font_prefix}10.${Font_color_suffix} aes-256-cfb8
- 
  ${Green_font_prefix}11.${Font_color_suffix} rc4
  ${Green_font_prefix}12.${Font_color_suffix} rc4-md5
  ${Green_font_prefix}13.${Font_color_suffix} rc4-md5-6
- 
  ${Green_font_prefix}14.${Font_color_suffix} salsa20
  ${Green_font_prefix}15.${Font_color_suffix} chacha20
  ${Green_font_prefix}16.${Font_color_suffix} xsalsa20
