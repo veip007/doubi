@@ -10,7 +10,7 @@ export PATH
 #	Blog: https://doub.io/ss-jc60/
 #=================================================
 
-sh_ver="2.0.1"
+sh_ver="2.0.2"
 filepath=$(cd "$(dirname "$0")"; pwd)
 file=$(echo -e "${filepath}"|awk -F "$0" '{print $1}')
 ssr_folder="/usr/local/shadowsocksr"
