@@ -433,34 +433,38 @@ Set_config_method(){
 	if [[ ${ssr_method} == "1" ]]; then
 		ssr_method="none"
 	elif [[ ${ssr_method} == "2" ]]; then
-		ssr_method="rc4"
-	elif [[ ${ssr_method} == "3" ]]; then
-		ssr_method="rc4-md5"
-	elif [[ ${ssr_method} == "4" ]]; then
-		ssr_method="rc4-md5-6"
-	elif [[ ${ssr_method} == "5" ]]; then
 		ssr_method="aes-128-ctr"
-	elif [[ ${ssr_method} == "6" ]]; then
+	elif [[ ${ssr_method} == "3" ]]; then
 		ssr_method="aes-192-ctr"
-	elif [[ ${ssr_method} == "7" ]]; then
+	elif [[ ${ssr_method} == "4" ]]; then
 		ssr_method="aes-256-ctr"
-	elif [[ ${ssr_method} == "8" ]]; then
+	elif [[ ${ssr_method} == "5" ]]; then
 		ssr_method="aes-128-cfb"
-	elif [[ ${ssr_method} == "9" ]]; then
+	elif [[ ${ssr_method} == "6" ]]; then
 		ssr_method="aes-192-cfb"
-	elif [[ ${ssr_method} == "10" ]]; then
+	elif [[ ${ssr_method} == "7" ]]; then
 		ssr_method="aes-256-cfb"
-	elif [[ ${ssr_method} == "11" ]]; then
+	elif [[ ${ssr_method} == "8" ]]; then
 		ssr_method="aes-128-cfb8"
-	elif [[ ${ssr_method} == "12" ]]; then
+	elif [[ ${ssr_method} == "9" ]]; then
 		ssr_method="aes-192-cfb8"
-	elif [[ ${ssr_method} == "13" ]]; then
+	elif [[ ${ssr_method} == "10" ]]; then
 		ssr_method="aes-256-cfb8"
+	elif [[ ${ssr_method} == "11" ]]; then
+		ssr_method="rc4"
+	elif [[ ${ssr_method} == "12" ]]; then
+		ssr_method="rc4-md5"
+	elif [[ ${ssr_method} == "13" ]]; then
+		ssr_method="arc4-md5-6"
 	elif [[ ${ssr_method} == "14" ]]; then
 		ssr_method="salsa20"
 	elif [[ ${ssr_method} == "15" ]]; then
 		ssr_method="chacha20"
 	elif [[ ${ssr_method} == "16" ]]; then
+		ssr_method="xsalsa20"
+	elif [[ ${ssr_method} == "17" ]]; then
+		ssr_method="xchacha20"
+	elif [[ ${ssr_method} == "18" ]]; then
 		ssr_method="chacha20-ietf"
 	else
 		ssr_method="aes-128-ctr"
