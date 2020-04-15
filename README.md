@@ -391,7 +391,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/doubi/m
   bash caddy_install.sh http.filemanager,http.webdav
   # 插件和Caddy是集成在一起的(单个二进制文件)，多个插件必须同时安装。
 # 卸载命令：
-wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/doubi/master/caddy_install.sh && chmod +x caddy_install.sh && caddy_install.sh uninstall
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/doubi/master/caddy_install.sh && chmod +x caddy_install.sh && bash caddy_install.sh uninstall
 ```
 
 ---
