@@ -10,7 +10,7 @@ export PATH
 #	Blog: https://doub.io/brook-jc3/
 #=================================================
 
-sh_ver="1.1.14"
+sh_ver="1.1.15"
 filepath=$(cd "$(dirname "$0")"; pwd)
 file_1=$(echo -e "${filepath}"|awk -F "$0" '{print $1}')
 file="/usr/local/brook"
