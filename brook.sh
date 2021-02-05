@@ -10,7 +10,7 @@ export PATH
 #	Blog: https://doub.io/brook-jc3/
 #=================================================
 
-sh_ver="1.1.13"
+sh_ver="1.1.14"
 filepath=$(cd "$(dirname "$0")"; pwd)
 file_1=$(echo -e "${filepath}"|awk -F "$0" '{print $1}')
 file="/usr/local/brook"
@@ -102,9 +102,9 @@ Download_brook(){
 	[[ ! -e ${file} ]] && mkdir ${file}
 	cd ${file}
 	if [[ ${bit} == "x86_64" ]]; then
-		wget --no-check-certificate -N "https://github.com/txthinking/brook/releases/download/${brook_new_ver}/brook"
+		wget --no-check-certificate -N https://github.com/txthinking/brook/releases/download/${brook_new_ver}/brook
 	else
-		wget --no-check-certificate -N "https://github.com/txthinking/brook/releases/download/${brook_new_ver}/brook_linux_386"
+		wget --no-check-certificate -N https://github.com/txthinking/brook/releases/download/${brook_new_ver}/brook_linux_386
 		mv brook_linux_386 brook
 	fi
 	[[ ! -e "brook" ]] && echo -e "${Error} Brook 下载失败 !" && rm -rf "${file}" && exit 1
