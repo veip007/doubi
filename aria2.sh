@@ -5,7 +5,7 @@ export PATH
 #=================================================
 #	System Required: CentOS/Debian/Ubuntu
 #	Description: Aria2
-#	Version: 1.1.10
+#	Version: 1.1.11
 #	Author: Toyo 
 #	Blog: https://doub.io/shell-jc4/
 #=================================================
@@ -327,8 +327,8 @@ Set_aria2_RPC_dir(){
 		aria2_dir_1=${aria2_dir}
 	fi
 	echo -e "请输入要设置的 Aria2 文件下载位置(旧位置为：${Green_font_prefix}${aria2_dir_1}${Font_color_suffix})"
-	read -e -p "(默认位置: /usr/local/caddy/www/aria2/Download):" aria2_RPC_dir
-	[[ -z "${aria2_RPC_dir}" ]] && aria2_RPC_dir="/usr/local/caddy/www/aria2/Download"
+	read -e -p "(默认位置: /root/Download):" aria2_RPC_dir
+	[[ -z "${aria2_RPC_dir}" ]] && aria2_RPC_dir="/root/Download"
 	echo
 	if [[ -d "${aria2_RPC_dir}" ]]; then
 		if [[ "${aria2_dir}" != "${aria2_RPC_dir}" ]]; then
