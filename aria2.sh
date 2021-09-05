@@ -9,7 +9,7 @@ export PATH
 #	Author: Toyo 
 #	Blog: https://doub.io/shell-jc4/
 #=================================================
-sh_ver="1.1.10"
+sh_ver="1.1.11"
 filepath=$(cd "$(dirname "$0")"; pwd)
 file_1=$(echo -e "${filepath}"|awk -F "$0" '{print $1}')
 file="/root/.aria2"
